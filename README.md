@@ -1,33 +1,23 @@
-# Rixon株式会社 サイト完全版
+# Rixon株式会社 Webサイト GitHub Pages簡単アップロード版
 
-## 追加・更新内容
-- トップページを5事業構成に更新
-- 業務委託ページを追加: `outsourcing.html`
-- アプリ開発ページを追加: `app-development.html`
-- Webサイト制作ページを追加: `web-production.html`
-- MAD/AMV動画制作ページを継続: `mad.html`
-- 送っていただいたRIXONロゴを全ページで統一
-- 各ページにイメージ写真画像を追加
-- 問い合わせフォームの項目に、業務委託・アプリ開発・Webサイト制作・MAD/AMV制作を追加
+この版はGitHub PagesでCSSが読み込まれない問題を避けるため、CSSとJavaScriptを各HTMLに埋め込み済みです。
+画像もassetsフォルダではなく、すべてHTMLと同じ階層に置いています。
 
-## ファイル構成
-- `index.html` トップページ
-- `outsourcing.html` 業務委託ページ
-- `app-development.html` アプリ開発ページ
-- `web-production.html` Webサイト制作ページ
-- `mad.html` MAD/AMV動画制作ページ
-- `assets/styles.css` デザインCSS
-- `assets/script.js` 問い合わせメール起動用JS
-- `assets/rixon-logo.png` 統一ロゴ
-- `assets/images/` イメージ写真
+## GitHub Pagesへの置き方
+1. このZIPを解凍します。
+2. 解凍した中身を全部選択します。
+3. GitHubのリポジトリ直下にアップロードします。
+4. `index.html` がリポジトリ直下に見えている状態にしてください。
 
-## 使い方
-`index.html` をブラウザで開くと確認できます。
-Netlifyなどにアップする場合は、このフォルダの中身をそのままアップロードしてください。
-
-
-更新内容（イメージ画像改善）
-- 業務委託ページに、より高品質な接客・相談イメージ画像を採用
-- アプリ開発ページに、UI/UXレビューの高品質イメージ画像を採用
-- Webサイト制作ページとトップのメインビジュアルに、Webデザイン打ち合わせの高品質イメージ画像を採用
-- MAD/AMV制作ページに、近未来的な編集スタジオの高品質イメージ画像を採用
+## 含まれるファイル
+- index.html
+- outsourcing.html
+- app-development.html
+- web-production.html
+- mad.html
+- rixon-logo.png
+- favicon.png
+- outsourcing-photo.png
+- app-development-photo.png
+- web-production-photo.png
+- mad-production-photo.png
