@@ -1,16 +1,26 @@
-# Rixon株式会社 サイト更新版（MAD/AMV制作ページ追加）
+# Rixon株式会社 サイト完全版
 
-## ファイル
-- index.html：トップページ。事業内容に「MAD/AMV動画制作」を追加済み。
-- mad.html：MAD/AMV動画制作の専用ページ。
-- rixon-logo.svg：表示用ロゴ。既存ロゴに差し替える場合は、同じファイル名で置き換えるかHTML内の画像パスを変更してください。
+## 追加・更新内容
+- トップページを5事業構成に更新
+- 業務委託ページを追加: `outsourcing.html`
+- アプリ開発ページを追加: `app-development.html`
+- Webサイト制作ページを追加: `web-production.html`
+- MAD/AMV動画制作ページを継続: `mad.html`
+- 送っていただいたRIXONロゴを全ページで統一
+- 各ページにイメージ写真画像を追加
+- 問い合わせフォームの項目に、業務委託・アプリ開発・Webサイト制作・MAD/AMV制作を追加
 
-## 変更内容
-- ヘッダーに「MAD/AMV制作」リンクを追加
-- トップページの事業内容に「事業04 MAD/AMV動画制作」を追加
-- 問い合わせフォームの項目に「MAD/AMV動画制作」を追加
-- 専用ページ `mad.html` を追加
-- 著作権・利用規約に配慮した注意文を追加
+## ファイル構成
+- `index.html` トップページ
+- `outsourcing.html` 業務委託ページ
+- `app-development.html` アプリ開発ページ
+- `web-production.html` Webサイト制作ページ
+- `mad.html` MAD/AMV動画制作ページ
+- `assets/styles.css` デザインCSS
+- `assets/script.js` 問い合わせメール起動用JS
+- `assets/rixon-logo.png` 統一ロゴ
+- `assets/images/` イメージ写真
 
 ## 使い方
-`index.html` をブラウザで開くと確認できます。公開する場合は、3ファイルを同じフォルダにアップロードしてください。
+`index.html` をブラウザで開くと確認できます。
+Netlifyなどにアップする場合は、このフォルダの中身をそのままアップロードしてください。
